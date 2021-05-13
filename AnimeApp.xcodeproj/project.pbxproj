@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		AE9EC28E256773F600066B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EC28D256773F600066B84 /* AppDelegate.swift */; };
 		AE9EC290256773F600066B84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EC28F256773F600066B84 /* SceneDelegate.swift */; };
-		AE9EC292256773F600066B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EC291256773F600066B84 /* ViewController.swift */; };
-		AE9EC295256773F600066B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9EC293256773F600066B84 /* Main.storyboard */; };
 		AE9EC297256773FA00066B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9EC296256773FA00066B84 /* Assets.xcassets */; };
 		AE9EC29A256773FA00066B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9EC298256773FA00066B84 /* LaunchScreen.storyboard */; };
+		AED202CD264D5D250083E4F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED202CC264D5D250083E4F9 /* HomeViewController.swift */; };
+		AED202D1264D5E6E0083E4F9 /* Animes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED202D0264D5E6E0083E4F9 /* Animes.swift */; };
+		AED202D4264D61320083E4F9 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED202D3264D61320083E4F9 /* Anime.swift */; };
+		B6C0240408F1C295E2AA8253 /* Pods_AnimeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C40B993C3D8E30B9085307 /* Pods_AnimeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		613183306218CA1CCB6A61FE /* Pods-AnimeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeApp.release.xcconfig"; path = "Target Support Files/Pods-AnimeApp/Pods-AnimeApp.release.xcconfig"; sourceTree = "<group>"; };
 		AE9EC28A256773F500066B84 /* AnimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9EC28D256773F600066B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE9EC28F256773F600066B84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE9EC291256773F600066B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE9EC294256773F600066B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE9EC296256773FA00066B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE9EC299256773FA00066B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE9EC29B256773FA00066B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED202CC264D5D250083E4F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AED202D0264D5E6E0083E4F9 /* Animes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animes.swift; sourceTree = "<group>"; };
+		AED202D3264D61320083E4F9 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		E8C40B993C3D8E30B9085307 /* Pods_AnimeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDA26ECD799346F688B6B54 /* Pods-AnimeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimeApp/Pods-AnimeApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C0240408F1C295E2AA8253 /* Pods_AnimeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD852414FC01192DE2A4300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C40B993C3D8E30B9085307 /* Pods_AnimeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FAF692D920D79C2240564A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEDA26ECD799346F688B6B54 /* Pods-AnimeApp.debug.xcconfig */,
+				613183306218CA1CCB6A61FE /* Pods-AnimeApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AE9EC281256773F500066B84 = {
 			isa = PBXGroup;
 			children = (
 				AE9EC28C256773F500066B84 /* AnimeApp */,
 				AE9EC28B256773F500066B84 /* Products */,
+				2FAF692D920D79C2240564A6 /* Pods */,
+				0AD852414FC01192DE2A4300 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +85,54 @@
 			children = (
 				AE9EC28D256773F600066B84 /* AppDelegate.swift */,
 				AE9EC28F256773F600066B84 /* SceneDelegate.swift */,
-				AE9EC291256773F600066B84 /* ViewController.swift */,
-				AE9EC293256773F600066B84 /* Main.storyboard */,
+				AED202DA264D69030083E4F9 /* Store */,
+				AED202C7264D5CEA0083E4F9 /* Models */,
+				AED202C9264D5CF60083E4F9 /* Views */,
+				AED202C8264D5CEF0083E4F9 /* Controllers */,
 				AE9EC296256773FA00066B84 /* Assets.xcassets */,
 				AE9EC298256773FA00066B84 /* LaunchScreen.storyboard */,
 				AE9EC29B256773FA00066B84 /* Info.plist */,
 			);
 			path = AnimeApp;
+			sourceTree = "<group>";
+		};
+		AED202C7264D5CEA0083E4F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AED202D0264D5E6E0083E4F9 /* Animes.swift */,
+				AED202D3264D61320083E4F9 /* Anime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AED202C8264D5CEF0083E4F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AED202CB264D5D0F0083E4F9 /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AED202C9264D5CF60083E4F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AED202CB264D5D0F0083E4F9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AED202CC264D5D250083E4F9 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AED202DA264D69030083E4F9 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE9EC29E256773FA00066B84 /* Build configuration list for PBXNativeTarget "AnimeApp" */;
 			buildPhases = (
+				1646007EF8D632D63BD76313 /* [CP] Check Pods Manifest.lock */,
 				AE9EC286256773F500066B84 /* Sources */,
 				AE9EC287256773F500066B84 /* Frameworks */,
 				AE9EC288256773F500066B84 /* Resources */,
+				679A990BBFE3E56D61AAA64A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,7 +164,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = iarwinscott;
 				TargetAttributes = {
 					AE9EC289256773F500066B84 = {
@@ -127,34 +197,69 @@
 			files = (
 				AE9EC29A256773FA00066B84 /* LaunchScreen.storyboard in Resources */,
 				AE9EC297256773FA00066B84 /* Assets.xcassets in Resources */,
-				AE9EC295256773F600066B84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1646007EF8D632D63BD76313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679A990BBFE3E56D61AAA64A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimeApp/Pods-AnimeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimeApp/Pods-AnimeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimeApp/Pods-AnimeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE9EC286256773F500066B84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9EC292256773F600066B84 /* ViewController.swift in Sources */,
+				AED202D1264D5E6E0083E4F9 /* Animes.swift in Sources */,
+				AED202D4264D61320083E4F9 /* Anime.swift in Sources */,
 				AE9EC28E256773F600066B84 /* AppDelegate.swift in Sources */,
 				AE9EC290256773F600066B84 /* SceneDelegate.swift in Sources */,
+				AED202CD264D5D250083E4F9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE9EC293256773F600066B84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE9EC294256773F600066B84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE9EC298256773FA00066B84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -192,6 +297,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +358,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,6 +389,7 @@
 		};
 		AE9EC29F256773FA00066B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDA26ECD799346F688B6B54 /* Pods-AnimeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +408,7 @@
 		};
 		AE9EC2A0256773FA00066B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613183306218CA1CCB6A61FE /* Pods-AnimeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
