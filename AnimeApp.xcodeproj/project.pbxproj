@@ -3,31 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE87DEA22650962300E5056D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE87DEA12650962300E5056D /* APIClient.swift */; };
+		AE87DEAB2651B72900E5056D /* AnimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE87DEAA2651B72900E5056D /* AnimeCollectionViewCell.swift */; };
 		AE9EC28E256773F600066B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EC28D256773F600066B84 /* AppDelegate.swift */; };
 		AE9EC290256773F600066B84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EC28F256773F600066B84 /* SceneDelegate.swift */; };
 		AE9EC297256773FA00066B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9EC296256773FA00066B84 /* Assets.xcassets */; };
 		AE9EC29A256773FA00066B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9EC298256773FA00066B84 /* LaunchScreen.storyboard */; };
+		AEC6C6C62656E49E004C82B4 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC6C6C52656E49E004C82B4 /* Anime.swift */; };
 		AED202CD264D5D250083E4F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED202CC264D5D250083E4F9 /* HomeViewController.swift */; };
-		AED202D1264D5E6E0083E4F9 /* Animes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED202D0264D5E6E0083E4F9 /* Animes.swift */; };
-		AED202D4264D61320083E4F9 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED202D3264D61320083E4F9 /* Anime.swift */; };
+		AED202D1264D5E6E0083E4F9 /* AnimeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED202D0264D5E6E0083E4F9 /* AnimeResponse.swift */; };
 		B6C0240408F1C295E2AA8253 /* Pods_AnimeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C40B993C3D8E30B9085307 /* Pods_AnimeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		613183306218CA1CCB6A61FE /* Pods-AnimeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeApp.release.xcconfig"; path = "Target Support Files/Pods-AnimeApp/Pods-AnimeApp.release.xcconfig"; sourceTree = "<group>"; };
+		AE87DEA12650962300E5056D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		AE87DEAA2651B72900E5056D /* AnimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		AE9EC28A256773F500066B84 /* AnimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9EC28D256773F600066B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE9EC28F256773F600066B84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE9EC296256773FA00066B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE9EC299256773FA00066B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE9EC29B256773FA00066B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC6C6C52656E49E004C82B4 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 		AED202CC264D5D250083E4F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		AED202D0264D5E6E0083E4F9 /* Animes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animes.swift; sourceTree = "<group>"; };
-		AED202D3264D61320083E4F9 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		AED202D0264D5E6E0083E4F9 /* AnimeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeResponse.swift; sourceTree = "<group>"; };
 		E8C40B993C3D8E30B9085307 /* Pods_AnimeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDA26ECD799346F688B6B54 /* Pods-AnimeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimeApp/Pods-AnimeApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +62,6 @@
 				FEDA26ECD799346F688B6B54 /* Pods-AnimeApp.debug.xcconfig */,
 				613183306218CA1CCB6A61FE /* Pods-AnimeApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,8 +102,8 @@
 		AED202C7264D5CEA0083E4F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AED202D0264D5E6E0083E4F9 /* Animes.swift */,
-				AED202D3264D61320083E4F9 /* Anime.swift */,
+				AED202D0264D5E6E0083E4F9 /* AnimeResponse.swift */,
+				AEC6C6C52656E49E004C82B4 /* Anime.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +119,7 @@
 		AED202C9264D5CF60083E4F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AE87DEAA2651B72900E5056D /* AnimeCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,6 +135,7 @@
 		AED202DA264D69030083E4F9 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				AE87DEA12650962300E5056D /* APIClient.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -249,11 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED202D1264D5E6E0083E4F9 /* Animes.swift in Sources */,
-				AED202D4264D61320083E4F9 /* Anime.swift in Sources */,
+				AE87DEAB2651B72900E5056D /* AnimeCollectionViewCell.swift in Sources */,
+				AED202D1264D5E6E0083E4F9 /* AnimeResponse.swift in Sources */,
 				AE9EC28E256773F600066B84 /* AppDelegate.swift in Sources */,
+				AEC6C6C62656E49E004C82B4 /* Anime.swift in Sources */,
 				AE9EC290256773F600066B84 /* SceneDelegate.swift in Sources */,
 				AED202CD264D5D250083E4F9 /* HomeViewController.swift in Sources */,
+				AE87DEA22650962300E5056D /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

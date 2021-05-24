@@ -2,30 +2,57 @@
 //  Anime.swift
 //  AnimeApp
 //
-//  Created by Arwin Oblea on 5/13/21.
+//  Created by Arwin Oblea on 5/20/21.
 //  Copyright © 2021 iarwinscott. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-struct Anime: Decodable {
+class Anime: Decodable {
   let id: String
-  let links: String
-  let attributes: String
-  let relationships: String
+  let type: String
+  let attributes: Attribute
   
-  enum AnimeCodingKeys: String, CodingKey {
-    case id
-    case links
-    case attributes
-    case relationships
+  var image: UIImage?
+  var imageState: ImageDownloadState = .placeholder
+  
+  enum ImageDownloadState {
+    case placeholder
+    case downloading
+    case finished
+    case failed
   }
   
-  init(from decoder: Decoder) throws {
+  private enum AnimeCodingKeys: String, CodingKey {
+    case id, type, attributes
+  }
+  
+  required init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: AnimeCodingKeys.self)
     id = try container.decode(String.self, forKey: .id)
-    links = try container.decode(String.self, forKey: .links)
-    attributes = try container.decode(String.self, forKey: .attributes)
-    relationships = try container.decode(String.self, forKey: .relationships)
+    type = try container.decode(String.self, forKey: .type)
+    attributes = try container.decode(Attribute.self, forKey: .attributes)
+  }
+  
+  struct Attribute: Decodable {
+    let description: String?
+    let titles: [String: String?]?
+    let posterImage: PosterImageURLS?
+    let coverImage: CoverImageURLS?
+    
+    struct PosterImageURLS: Decodable {
+      let tiny: String
+      let small: String
+      let medium: String
+      let large: String
+      let original: String
+    }
+
+    struct CoverImageURLS: Decodable {
+      let tiny: String
+      let small: String
+      let large: String
+      let original: String
+    }
   }
 }

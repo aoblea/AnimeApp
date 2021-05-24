@@ -6,9 +6,9 @@
 //  Copyright © 2021 iarwinscott. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-struct AnimePage: Decodable {
+struct AnimeResponse: Decodable {
   let data: [Anime]
   let meta: Meta
   let links: Pages

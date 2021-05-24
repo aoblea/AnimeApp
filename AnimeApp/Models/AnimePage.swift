@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct AnimePage: Decodable {
+struct AnimeWrapper: Decodable {
   let data: [Anime]
   let meta: Meta
   let links: Pages
